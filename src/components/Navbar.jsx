@@ -4,7 +4,7 @@ import { useState } from 'react';
 const Navbar = () => {
   // 1. Estado para controlar si el modal (imagen ampliada) está visible o no
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const imagePath = "/src/assets/fotomia.jpg"; // Guardamos la ruta para reutilizarla
+  const imagePath = "./src/assets/fotomia.jpg"; // Guardamos la ruta para reutilizarla
 
   return (
     <>
