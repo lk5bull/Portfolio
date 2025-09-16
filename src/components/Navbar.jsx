@@ -1,10 +1,10 @@
 // src/components/Navbar.jsx
 import { useState } from 'react';
-
+import miLogo from '../assets/fotomia.jpg'; // Asegúrate de tener esta imagen en la carpeta assets
 const Navbar = () => {
   // 1. Estado para controlar si el modal (imagen ampliada) está visible o no
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const imagePath = "src/assets/fotomia.jpg"; // Guardamos la ruta para reutilizarla
+  const imagePath = miLogo; // Guardamos la ruta para reutilizarla
 
   return (
     <>
