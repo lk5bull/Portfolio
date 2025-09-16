@@ -1,34 +1,40 @@
 // src/components/Projects.jsx
 import ProjectCard from './ProjectCard';
+import clinica  from '../assets/clinica.png';
+import contador from '../assets/contador.png';
+import indumentaria from '../assets/g-one.png';
+import reloj from '../assets/reloj.png';
 // Importa aquí tus imágenes de proyectos desde la carpeta assets
 // import project1Image from '../assets/project1.png';
 
 const projectsData = [
+
+  
   {
     title: "Clinica San Miguel",
     description: "Desarrrollo frontend grupal de un sistema web de turnos para una clínica.",
-    imageUrl: "src/assets/clinica.png", // Reemplaza con tu imagen
+    imageUrl: clinica, // Reemplaza con tu imagen
     liveUrl: "https://sanmiguelclinicamedica.netlify.app/", // Reemplaza con el link real
     repoUrl: "https://github.com/lk5bull/clinica", // Reemplaza con el link real
   },
   {
     title: "Contador de golpes de boxeo",
     description: "proyecto personal desarrollado con React para contar con presicion estimativa los golpes en boxeo a traves de microfonos.",
-    imageUrl: "src/assets/contador.png", // Reemplaza con tu imagen
+    imageUrl: contador, // Reemplaza con tu imagen
     liveUrl: "https://contadordegolpesboxeo.netlify.app/",
     repoUrl: "https://github.com/lk5bull/contador-de-golpes-con-sonido",
   },
   {
     title: "G-One",
     description: "Front-end realizado de manera grupal para e-commerce de indumentaria deportiva con html  y bootstrap.",
-    imageUrl: "src/assets/g-one.png", // Reemplaza con tu imagen
+    imageUrl: indumentaria, // Reemplaza con tu imagen
     liveUrl: "https://g-one-indumentaria.netlify.app/",
     repoUrl: "https://github.com/lk5bull/primer-proyecto-front-grupal",
   },
   {
     title: "Reloj campana de boxeo",
     description: "Aplicacion web desarrollada con React para contabilizar los rounds de boxeo .",
-    imageUrl: "src/assets/reloj.png", // Reemplaza con tu imagen
+    imageUrl: reloj, // Reemplaza con tu imagen
     liveUrl: "https://relojboxeo.netlify.app/",
     repoUrl: "https://github.com/lk5bull/boxing_timer",
   },
